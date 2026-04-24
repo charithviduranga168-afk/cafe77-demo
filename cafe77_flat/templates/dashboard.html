@@ -56,7 +56,7 @@ td{padding:12px 12px;vertical-align:top;}
       <div class="qr-grid">
         {% for outlet in outlets %}
         <div class="qr-card">
-          <img src="/qr/{{ outlet.id }}.png" alt="QR for {{ outlet.name }}">
+          <img src="/qr/{{ outlet.token }}.png" alt="QR for {{ outlet.name }}">
           <div>
             <div class="qr-card-name">{{ outlet.name }}</div>
             <div class="qr-card-hint">Scan to open request portal</div>
